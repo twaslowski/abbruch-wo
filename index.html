@@ -331,7 +331,7 @@
 
 <script>
 // ── Data ────────────────────────────────────────────────
-const GEO = fetch('./providers.geojson');
+let GEO = null;
 
 
 // ── State ────────────────────────────────────────────────
@@ -340,6 +340,11 @@ let activeLang   = '';
 let searchQuery  = '';
 let markers      = [];
 let highlightedCard = null;
+
+(async () => {
+    GEO = await fetch('./providers.geojson').then(r => r.json());
+    render();
+  })();
 
 // ── Map init ─────────────────────────────────────────────
 const map = L.map('map', { zoomControl: false }).setView([51.1657, 10.4515], 6);
