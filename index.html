@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schwangerschaftsabbruch – Anlaufstellen in Deutschland</title>
+
+  <!-- Leaflet -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ── Tokens ─────────────────────────────────────────── */
+    :root {
+      --bg:        #F7F6F3;
+      --surface:   #FFFFFF;
+      --border:    #E4E2DD;
+      --text:      #1C1C1E;
+      --muted:     #6E6E73;
+      --accent:    #2A7A6F;
+      --accent-lt: #EAF4F2;
+      --pill-med:  #3A6BC4;
+      --pill-sur:  #7B4FC9;
+      --shadow:    0 4px 24px rgba(0,0,0,.10);
+      --radius:    10px;
+    }
+
+    /* ── Reset ──────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; font-family: 'Inter', sans-serif; color: var(--text); background: var(--bg); }
+
+    /* ── Layout ─────────────────────────────────────────── */
+    #app {
+      display: flex;
+      height: 100vh;
+      position: relative;
+    }
+
+    /* Full-bleed map */
+    #map {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+
+    /* Floating sidebar */
+    #sidebar {
+      position: relative;
+      z-index: 10;
+      width: 340px;
+      min-width: 280px;
+      max-width: 90vw;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      background: var(--surface);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    /* ── Sidebar header ─────────────────────────────────── */
+    #sidebar-header {
+      padding: 24px 20px 18px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    #sidebar-header h1 {
+      font-family: 'DM Serif Display', serif;
+      font-size: 1.35rem;
+      font-weight: 400;
+      line-height: 1.3;
+      color: var(--text);
+    }
+    #sidebar-header p {
+      font-size: .8rem;
+      color: var(--muted);
+      margin-top: 4px;
+      line-height: 1.5;
+    }
+
+    /* ── Filters ────────────────────────────────────────── */
+    #filters {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .filter-label {
+      font-size: .7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    /* Search */
+    #search-wrap {
+      position: relative;
+      margin-bottom: 14px;
+    }
+    #search-wrap svg {
+      position: absolute;
+      left: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: var(--muted);
+      pointer-events: none;
+    }
+    #search {
+      width: 100%;
+      padding: 8px 12px 8px 34px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-family: inherit;
+      font-size: .875rem;
+      color: var(--text);
+      background: var(--bg);
+      outline: none;
+      transition: border-color .15s;
+    }
+    #search:focus { border-color: var(--accent); }
+
+    /* Method toggles */
+    .toggle-group {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-bottom: 14px;
+    }
+    .toggle-btn {
+      padding: 5px 13px;
+      border-radius: 20px;
+      border: 1.5px solid var(--border);
+      background: var(--surface);
+      font-family: inherit;
+      font-size: .8rem;
+      font-weight: 500;
+      color: var(--muted);
+      cursor: pointer;
+      transition: all .15s;
+      user-select: none;
+    }
+    .toggle-btn:hover { border-color: var(--accent); color: var(--accent); }
+    .toggle-btn.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: #fff;
+    }
+
+    /* Language select */
+    #lang-select {
+      width: 100%;
+      padding: 7px 10px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-family: inherit;
+      font-size: .875rem;
+      color: var(--text);
+      background: var(--bg);
+      outline: none;
+      cursor: pointer;
+      transition: border-color .15s;
+    }
+    #lang-select:focus { border-color: var(--accent); }
+
+    /* Results count */
+    #result-count {
+      font-size: .78rem;
+      color: var(--muted);
+      padding: 10px 20px 6px;
+      flex-shrink: 0;
+    }
+    #result-count strong { color: var(--accent); }
+
+    /* ── Clinic list ────────────────────────────────────── */
+    #clinic-list {
+      flex: 1;
+      overflow-y: auto;
+      padding: 6px 12px 20px;
+    }
+    #clinic-list::-webkit-scrollbar { width: 4px; }
+    #clinic-list::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+    .clinic-card {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      border-radius: var(--radius);
+      transition: background .12s;
+    }
+    .clinic-card:hover, .clinic-card.highlighted {
+      background: var(--accent-lt);
+    }
+    .clinic-name {
+      font-size: .875rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 3px;
+      line-height: 1.35;
+    }
+    .clinic-addr {
+      font-size: .78rem;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .clinic-meta {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-wrap: wrap;
+    }
+    .pill {
+      font-size: .7rem;
+      font-weight: 600;
+      padding: 2px 8px;
+      border-radius: 20px;
+    }
+    .pill-med  { background: #DCEEFF; color: var(--pill-med); }
+    .pill-sur  { background: #EDE4FF; color: var(--pill-sur); }
+    .pill-lang { background: var(--accent-lt); color: var(--accent); }
+    .clinic-phone {
+      font-size: .75rem;
+      color: var(--muted);
+      margin-left: auto;
+    }
+    .clinic-phone a { color: inherit; text-decoration: none; }
+    .clinic-phone a:hover { color: var(--accent); }
+
+    /* Empty state */
+    #empty-state {
+      display: none;
+      padding: 32px 20px;
+      text-align: center;
+      color: var(--muted);
+      font-size: .875rem;
+    }
+
+    /* ── Leaflet popup overrides ────────────────────────── */
+    .leaflet-popup-content-wrapper {
+      border-radius: var(--radius) !important;
+      box-shadow: var(--shadow) !important;
+      font-family: 'Inter', sans-serif;
+      padding: 0 !important;
+    }
+    .leaflet-popup-content {
+      margin: 0 !important;
+      width: 240px !important;
+    }
+    .popup-inner { padding: 14px 16px; }
+    .popup-name { font-weight: 600; font-size: .875rem; margin-bottom: 4px; }
+    .popup-addr { font-size: .78rem; color: var(--muted); margin-bottom: 8px; }
+    .popup-pills { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 8px; }
+    .popup-contact { font-size: .75rem; color: var(--muted); }
+    .popup-contact a { color: var(--accent); text-decoration: none; }
+
+    /* ── Custom marker ──────────────────────────────────── */
+    .marker-pin {
+      width: 28px;
+      height: 28px;
+      border-radius: 50% 50% 50% 0;
+      background: var(--accent);
+      transform: rotate(-45deg);
+      border: 3px solid #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,.25);
+    }
+    .marker-pin.dim { background: #999; }
+
+    /* ── Mobile ─────────────────────────────────────────── */
+    @media (max-width: 640px) {
+      #app { flex-direction: column; }
+      #sidebar {
+        width: 100%;
+        height: 55vh;
+        box-shadow: 0 -4px 20px rgba(0,0,0,.12);
+        order: 2;
+      }
+      #map { position: relative; height: 45vh; order: 1; }
+    }
+  </style>
+</head>
+<body>
+<div id="app">
+  <!-- Map -->
+  <div id="map"></div>
+
+  <!-- Sidebar -->
+  <aside id="sidebar">
+    <div id="sidebar-header">
+      <h1>Anlaufstellen für den Schwangerschaftsabbruch</h1>
+      <p>Kliniken und Praxen in Deutschland – nach Methode und Sprache filtern.</p>
+    </div>
+
+    <div id="filters">
+      <!-- Search -->
+      <div class="filter-label">Ort oder Einrichtung suchen</div>
+      <div id="search-wrap">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="6.5" cy="6.5" r="5.5" stroke="#6E6E73" stroke-width="1.5"/>
+          <path d="M10.5 10.5L14 14" stroke="#6E6E73" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input id="search" type="text" placeholder="z. B. Berlin oder Charité …" autocomplete="off" />
+      </div>
+
+      <!-- Method -->
+      <div class="filter-label">Methode</div>
+      <div class="toggle-group" id="method-filters">
+        <button class="toggle-btn active" data-method="all">Alle</button>
+        <button class="toggle-btn" data-method="medicinal">Medikamentös</button>
+        <button class="toggle-btn" data-method="surgical">Chirurgisch</button>
+        <button class="toggle-btn" data-method="both">Beide</button>
+      </div>
+
+      <!-- Language -->
+      <div class="filter-label">Sprache</div>
+      <select id="lang-select">
+        <option value="">Alle Sprachen</option>
+      </select>
+    </div>
+
+    <div id="result-count"></div>
+
+    <div id="clinic-list"></div>
+    <div id="empty-state">Keine Einrichtungen gefunden.<br>Bitte Filter anpassen.</div>
+  </aside>
+</div>
+
+<script>
+// ── Data ────────────────────────────────────────────────
+const GEO = fetch('./providers.geojson');
+
+
+// ── State ────────────────────────────────────────────────
+let activeMethod = 'all';
+let activeLang   = '';
+let searchQuery  = '';
+let markers      = [];
+let highlightedCard = null;
+
+// ── Map init ─────────────────────────────────────────────
+const map = L.map('map', { zoomControl: false }).setView([51.1657, 10.4515], 6);
+L.control.zoom({ position: 'bottomright' }).addTo(map);
+
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/">CARTO</a>',
+  subdomains: 'abcd',
+  maxZoom: 19
+}).addTo(map);
+
+// ── Marker icon factory ──────────────────────────────────
+function makeIcon(dim = false) {
+  return L.divIcon({
+    className: '',
+    html: `<div class="marker-pin${dim ? ' dim' : ''}"></div>`,
+    iconSize: [28, 28],
+    iconAnchor: [14, 28],
+    popupAnchor: [0, -30]
+  });
+}
+
+// ── Populate language dropdown ───────────────────────────
+const allLangs = new Set();
+GEO.features.forEach(f => f.properties.languages.forEach(l => allLangs.add(l)));
+const langSelect = document.getElementById('lang-select');
+[...allLangs].sort().forEach(lang => {
+  const opt = document.createElement('option');
+  opt.value = lang;
+  opt.textContent = lang;
+  langSelect.appendChild(opt);
+});
+
+// ── Filter + render ──────────────────────────────────────
+function passes(props) {
+  // Method filter
+  if (activeMethod === 'medicinal' && !props.method_medicinal) return false;
+  if (activeMethod === 'surgical'  && !props.method_surgical)  return false;
+  if (activeMethod === 'both'      && !(props.method_medicinal && props.method_surgical)) return false;
+  // Language filter
+  if (activeLang && !props.languages.includes(activeLang)) return false;
+  // Search filter
+  if (searchQuery) {
+    const q = searchQuery.toLowerCase();
+    const haystack = [props.praxis, props.institution, props.address, props.doctor]
+      .filter(Boolean).join(' ').toLowerCase();
+    if (!haystack.includes(q)) return false;
+  }
+  return true;
+}
+
+function methodPills(props) {
+  const pills = [];
+  if (props.method_medicinal) pills.push('<span class="pill pill-med">Medikamentös</span>');
+  if (props.method_surgical)  pills.push('<span class="pill pill-sur">Chirurgisch</span>');
+  return pills.join('');
+}
+
+function langPills(langs) {
+  return langs.map(l => `<span class="pill pill-lang">${l}</span>`).join('');
+}
+
+function render() {
+  // Clear old markers
+  markers.forEach(m => m.marker.remove());
+  markers = [];
+
+  const list  = document.getElementById('clinic-list');
+  const empty = document.getElementById('empty-state');
+  const count = document.getElementById('result-count');
+  list.innerHTML = '';
+
+  const visible = GEO.features.filter(f => passes(f.properties));
+  const hidden  = GEO.features.filter(f => !passes(f.properties));
+
+  count.innerHTML = `<strong>${visible.length}</strong> von ${GEO.features.length} Einrichtungen`;
+
+  if (visible.length === 0) {
+    empty.style.display = 'block';
+  } else {
+    empty.style.display = 'none';
+  }
+
+  // Place dim markers for hidden clinics
+  hidden.forEach(f => {
+    const [lng, lat] = f.geometry.coordinates;
+    const m = L.marker([lat, lng], { icon: makeIcon(true), opacity: 0.25 }).addTo(map);
+    markers.push({ id: f.properties.id, marker: m });
+  });
+
+  // Place active markers + list cards
+  visible.forEach(f => {
+    const p = f.properties;
+    const [lng, lat] = f.geometry.coordinates;
+
+    // Popup
+    const popupHtml = `
+      <div class="popup-inner">
+        <div class="popup-name">${p.praxis}</div>
+        <div class="popup-addr">${p.address}</div>
+        <div class="popup-pills">${methodPills(p)}${langPills(p.languages)}</div>
+        <div class="popup-contact">
+          ${p.phone ? `<a href="tel:${p.phone}">${p.phone}</a>` : ''}
+          ${p.website ? ` · <a href="https://${p.website}" target="_blank">${p.website}</a>` : ''}
+        </div>
+      </div>`;
+
+    const marker = L.marker([lat, lng], { icon: makeIcon() })
+      .addTo(map)
+      .bindPopup(popupHtml, { maxWidth: 260 });
+
+    markers.push({ id: p.id, marker });
+
+    // List card
+    const card = document.createElement('div');
+    card.className = 'clinic-card';
+    card.dataset.id = p.id;
+    card.innerHTML = `
+      <div class="clinic-name">${p.praxis}</div>
+      <div class="clinic-addr">${p.address}</div>
+      <div class="clinic-meta">
+        ${methodPills(p)}
+        ${langPills(p.languages)}
+        ${p.phone ? `<span class="clinic-phone"><a href="tel:${p.phone}">${p.phone}</a></span>` : ''}
+      </div>`;
+
+    card.addEventListener('click', () => {
+      map.flyTo([lat, lng], 14, { duration: 0.8 });
+      marker.openPopup();
+      // Highlight
+      document.querySelectorAll('.clinic-card').forEach(c => c.classList.remove('highlighted'));
+      card.classList.add('highlighted');
+    });
+
+    // Marker → highlight card
+    marker.on('click', () => {
+      document.querySelectorAll('.clinic-card').forEach(c => c.classList.remove('highlighted'));
+      card.classList.add('highlighted');
+      card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+
+    list.appendChild(card);
+  });
+}
+
+// ── Event listeners ──────────────────────────────────────
+document.querySelectorAll('.toggle-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeMethod = btn.dataset.method;
+    render();
+  });
+});
+
+langSelect.addEventListener('change', e => {
+  activeLang = e.target.value;
+  render();
+});
+
+document.getElementById('search').addEventListener('input', e => {
+  searchQuery = e.target.value.trim();
+  render();
+});
+
+// ── Init ─────────────────────────────────────────────────
+render();
+</script>
+</body>
+</html>

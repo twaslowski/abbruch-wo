@@ -1,0 +1,1398 @@
+{
+  "Alexanderstraße 11 - 15, 52062 Aachen": [
+    50.7783029,
+    6.0883997
+  ],
+  "Pauwelsstraße 30, 52074 Aachen": [
+    50.77685229999999,
+    6.0433976
+  ],
+  "Ludgerusweg 3, 48683 Ahaus": [
+    52.07109029999999,
+    6.9744093
+  ],
+  "Große Straße 14, 22926 Ahrensburg": [
+    53.6753257,
+    10.2390253
+  ],
+  "Bahnhofstraße 11, 90518 Altdorf b. Nürnberg": [
+    49.388232,
+    11.3539843
+  ],
+  "Am Waldessaum 10, 04600 Altenburg": [
+    50.9724137,
+    12.4407376
+  ],
+  "Hospitalstraße 19, 17389 Anklam": [
+    53.8483609,
+    13.6994626
+  ],
+  "Jenaer Straße 66, 99510 Apolda": [
+    51.0137901,
+    11.512988
+  ],
+  "Bärwinkelstraße 33, 99310 Arnstadt": [
+    50.8395119,
+    10.941773
+  ],
+  "Frohsinnstraße 32, 63739 Aschaffenburg": [
+    49.97967569999999,
+    9.14534
+  ],
+  "Ludwigstraße 4, 63739 Aschaffenburg": [
+    49.9800991,
+    9.143055799999999
+  ],
+  "Wallinghausener Straße 12, 26603 Aurich": [
+    53.4673785,
+    7.4976169
+  ],
+  "Neue Straße 24, 37581 Bad Gandersheim": [
+    51.8685444,
+    10.0202193
+  ],
+  "Rudolph-Weiss-Straße 1 - 5, 99947 Bad Langensalza": [
+    51.1058038,
+    10.651275
+  ],
+  "Torgauer Straße 77, 04924 Bad Liebenwerda": [
+    51.5164582,
+    13.3838495
+  ],
+  "Bergstraße 1, 23843 Bad Oldesloe": [
+    53.805747,
+    10.3781172
+  ],
+  "Lübecker Straße 18, 23611 Bad Schwartau": [
+    53.9174573,
+    10.6980837
+  ],
+  "Eutiner Ring 5, 23611 Bad Schwartau": [
+    53.9192933,
+    10.6960105
+  ],
+  "Krankenhausstraße 2, 23795 Bad Segeberg": [
+    53.9404802,
+    10.3082329
+  ],
+  "Tübinger Straße 44, 72336 Balingen": [
+    48.2787666,
+    8.858082999999999
+  ],
+  "Kornmarkt 2, 02625 Bautzen": [
+    51.1796094,
+    14.4263328
+  ],
+  "Kölner Straße 26, 51429 Bergisch Gladbach": [
+    50.9644919,
+    7.152404499999999
+  ],
+  "Friedrichstraße 63, 10117 Berlin": [
+    52.5117045,
+    13.3899128
+  ],
+  "Leipziger Straße 40, 10117 Berlin": [
+    52.5105923,
+    13.3943443
+  ],
+  "Weinbergsweg 27, 10119 Berlin": [
+    52.5303901,
+    13.4014731
+  ],
+  "Schwedter Straße 1, 10119 Berlin": [
+    52.5329785,
+    13.411972
+  ],
+  "Andreasstraße 64, 10243 Berlin": [
+    52.5135729,
+    13.4312313
+  ],
+  "Andreasstraße 51, 10243 Berlin": [
+    52.5164252,
+    13.4322612
+  ],
+  "Warschauer Straße 33, 10243 Berlin": [
+    52.5078423,
+    13.4501493
+  ],
+  "Bänschstraße 69, 10247 Berlin": [
+    52.518051,
+    13.4682165
+  ],
+  "Rheinsteinstraße 4, 10318 Berlin": [
+    52.48273930000001,
+    13.5269821
+  ],
+  "Treskowallee 128, 10365 Berlin": [
+    52.4788749,
+    13.5242345
+  ],
+  "Immanuelkirchstraße 2, 10405 Berlin": [
+    52.5329985,
+    13.4221541
+  ],
+  "Greifswalder Straße 139, 10409 Berlin": [
+    52.545897,
+    13.444777
+  ],
+  "Kollwitzstraße 78, 10435 Berlin": [
+    52.53732669999999,
+    13.4195914
+  ],
+  "Schönhauser Allee 118, 10437 Berlin": [
+    52.5491954,
+    13.4128939
+  ],
+  "Schönhauser Allee 81, 10439 Berlin": [
+    52.5502196,
+    13.414302
+  ],
+  "Wichertstraße 17, 10439 Berlin": [
+    52.548897,
+    13.4195618
+  ],
+  "Oldenburger Straße 37, 10551 Berlin": [
+    52.53013079999999,
+    13.3358724
+  ],
+  "Alt-Moabit 109, 10559 Berlin": [
+    52.5242588,
+    13.3504004
+  ],
+  "Krumme Straße 70, 10627 Berlin": [
+    52.511109,
+    13.3096869
+  ],
+  "Bismarckstraße 45 - 47, 10627 Berlin": [
+    52.5117001,
+    13.3045221
+  ],
+  "Kantstraße 72, 10627 Berlin": [
+    52.5069741,
+    13.2998446
+  ],
+  "Joachim-Friedrich-Straße 16, 10711 Berlin": [
+    52.4973069,
+    13.2966517
+  ],
+  "Bundesallee 56, 10715 Berlin": [
+    52.4813054,
+    13.3286195
+  ],
+  "Bundesplatz 3, 10715 Berlin": [
+    52.4796901,
+    13.3276295
+  ],
+  "Hohenstaufenstraße 33, 10779 Berlin": [
+    52.4945423,
+    13.3409101
+  ],
+  "Bülowstraße 23, 10783 Berlin": [
+    52.4977247,
+    13.3609881
+  ],
+  "Alte Potsdamer Straße 7, 10785 Berlin": [
+    52.5078937,
+    13.3742341
+  ],
+  "Tauentzienstraße 1, 10789 Berlin": [
+    52.5024558,
+    13.3421402
+  ],
+  "Yorckstraße 71, 10965 Berlin": [
+    52.4924422,
+    13.3810265
+  ],
+  "Mehringplatz 13, 10969 Berlin": [
+    52.49961260000001,
+    13.390823
+  ],
+  "Paul-Lincke-Ufer 7d, 10999 Berlin": [
+    52.4927636,
+    13.4351303
+  ],
+  "Karl-Marx-Straße 132, 12043 Berlin": [
+    52.4772904,
+    13.4384276
+  ],
+  "Karl-Marx-Straße 27, 12043 Berlin": [
+    52.4847389,
+    13.4285892
+  ],
+  "Karl-Marx-Straße 80, 12043 Berlin": [
+    52.4814021,
+    13.4341209
+  ],
+  "Sonnenallee 105, 12045 Berlin": [
+    52.4820157,
+    13.4400885
+  ],
+  "Herrfurthstraße 1, 12049 Berlin": [
+    52.4776429,
+    13.4257403
+  ],
+  "Hermannstraße 162, 12051 Berlin": [
+    52.46892279999999,
+    13.4308828
+  ],
+  "Hermannstraße 147, 12051 Berlin": [
+    52.4643764,
+    13.4333802
+  ],
+  "Wenckebachstraße 23, 12099 Berlin": [
+    52.458527,
+    13.3904986
+  ],
+  "Rheinstraße 29, 12161 Berlin": [
+    52.46730549999999,
+    13.3299847
+  ],
+  "Bundesallee 104 - 105, 12161 Berlin": [
+    52.46578969999999,
+    13.3286568
+  ],
+  "Schloßstraße 28, 12163 Berlin": [
+    52.45912610000001,
+    13.3220779
+  ],
+  "Schloßstraße 88, 12163 Berlin": [
+    52.4575445,
+    13.3217258
+  ],
+  "Schloßstraße 40, 12165 Berlin": [
+    52.4564374,
+    13.3200124
+  ],
+  "Grunewaldstraße 6, 12165 Berlin": [
+    52.4580116,
+    13.3183218
+  ],
+  "Drakestraße 29a, 12205 Berlin": [
+    52.4415217,
+    13.2986888
+  ],
+  "Hildburghauser Straße 5c, 12279 Berlin": [
+    52.41249999999999,
+    13.35997
+  ],
+  "Skarbinastraße 79, 12309 Berlin": [
+    52.3930555,
+    13.4205479
+  ],
+  "Britzer Damm 63, 12347 Berlin": [
+    52.4568069,
+    13.4375353
+  ],
+  "Mahlsdorfer Straße 106 - 107, 12555 Berlin": [
+    52.45999459999999,
+    13.5799628
+  ],
+  "Freiheit 1, 12555 Berlin": [
+    52.4471942,
+    13.5759894
+  ],
+  "Oschatzer Ring 14, 12627 Berlin": [
+    52.5414342,
+    13.6155054
+  ],
+  "Warener Straße 1, 12683 Berlin": [
+    52.5192892,
+    13.5647051
+  ],
+  "Mehrower Allee 22, 12687 Berlin": [
+    52.5558305,
+    13.5603763
+  ],
+  "Konrad-Wolf-Straße 12/12a, 13055 Berlin": [
+    52.54737979999999,
+    13.4981228
+  ],
+  "Garbátyplatz 1, 13187 Berlin": [
+    52.5670179,
+    13.4115604
+  ],
+  "Garbatyplatz 1, 13187 Berlin": [
+    52.5670179,
+    13.4115604
+  ],
+  "Wollankstraße 11, 13187 Berlin": [
+    52.5670045,
+    13.3968149
+  ],
+  "Müllerstraße 139, 13353 Berlin": [
+    52.54930539999999,
+    13.3534735
+  ],
+  "Badstraße 4, 13357 Berlin": [
+    52.5497334,
+    13.3897702
+  ],
+  "Glienicker Straße 6c, 13467 Berlin": [
+    52.6176815,
+    13.308532
+  ],
+  "Hermsdorfer Damm 214, 13467 Berlin": [
+    52.6219613,
+    13.3114802
+  ],
+  "Benekendorffstraße 11, 13469 Berlin": [
+    52.6090154,
+    13.3224772
+  ],
+  "Schloßstraße 2, 13507 Berlin": [
+    52.5910192,
+    13.2833139
+  ],
+  "Stadtrandstraße 555, 13589 Berlin": [
+    52.5624847,
+    13.1557658
+  ],
+  "Obstallee 22a, 13593 Berlin": [
+    52.5219219,
+    13.1613285
+  ],
+  "Carl-Schurz-Straße 29, 13597 Berlin": [
+    52.5369159,
+    13.2025238
+  ],
+  "Breite Straße 18, 13597 Berlin": [
+    52.5364334,
+    13.2050309
+  ],
+  "Potsdamer Straße 52, 14163 Berlin": [
+    52.4350916,
+    13.259058
+  ],
+  "Teltower Damm 7, 14169 Berlin": [
+    52.4341805,
+    13.2604631
+  ],
+  "Thielallee 107, 14195 Berlin": [
+    52.4427872,
+    13.282665
+  ],
+  "August-Bebel-Str 14, 16321 Bernau": [
+    52.680412,
+    13.5925628
+  ],
+  "Hauptstraße 1, 15741 Bestensee": [
+    52.241036,
+    13.647574
+  ],
+  "Jöllenbecker Straße 181, 33613 Bielefeld": [
+    52.0432903,
+    8.522520799999999
+  ],
+  "Friedrich-Ludwig-Jahn-Straße 2, 06749 Bitterfeld-Wolfen": [
+    51.6338367,
+    12.3345045
+  ],
+  "Bahnhofstraße 5, 06766 Bitterfeld-Wolfen": [
+    51.6610872,
+    12.2775855
+  ],
+  "Voedestraße 2 - 4, 44866 Bochum": [
+    51.4810457,
+    7.135358999999999
+  ],
+  "Am Mühlentor 15, 37619 Bodenwerder": [
+    51.9794244,
+    9.5183444
+  ],
+  "Wallfahrtsweg 2, 53115 Bonn": [
+    50.7206446,
+    7.0871952
+  ],
+  "Große Münzenstraße 2, 14776 Brandenburg": [
+    52.4097279,
+    12.5620157
+  ],
+  "Kurstraße 15, 14776 Brandenburg": [
+    52.4080366,
+    12.5588949
+  ],
+  "Hochstraße 29, 14770 Brandenburg a.d. Havel": [
+    52.4137754,
+    12.546444
+  ],
+  "Pawelstraße 4, 38118 Braunschweig": [
+    52.260358,
+    10.5106887
+  ],
+  "Wachtstraße 17 - 24, 28195 Bremen": [
+    53.0743865,
+    8.806563299999999
+  ],
+  "Bennigsenstraße 2 - 6, 28207 Bremen": [
+    53.07075,
+    8.8573
+  ],
+  "Hollerallee 24, 28209 Bremen": [
+    53.0833052,
+    8.827593799999999
+  ],
+  "Sonneberger Straße 3, 28329 Bremen": [
+    53.0793836,
+    8.8765435
+  ],
+  "Gnarrenburger Straße 117, 27432 Bremervörde": [
+    53.4715564,
+    9.1351119
+  ],
+  "Marktstraße 8, 74722 Buchen": [
+    49.521805,
+    9.3238801
+  ],
+  "Leipziger Straße 58, 09113 Chemnitz": [
+    50.842818,
+    12.9065095
+  ],
+  "Thiemstraße 111, 03048 Cottbus": [
+    51.742293,
+    14.3231172
+  ],
+  "Neckarstraße 12, 64283 Darmstadt": [
+    49.87033049999999,
+    8.6456783
+  ],
+  "Frankfurter Straße 69, 64807 Dieburg": [
+    49.9061216,
+    8.8470432
+  ],
+  "Wißstraße 22, 44137 Dortmund": [
+    51.5122918,
+    7.4648802
+  ],
+  "Wittekindstraße 105, 44139 Dortmund": [
+    51.5023704,
+    7.4550847
+  ],
+  "Körner Hellweg 142, 44143 Dortmund": [
+    51.5184606,
+    7.5110329
+  ],
+  "Obergraben 6, 01097 Dresden": [
+    51.0600276,
+    13.7418923
+  ],
+  "Königsbrücker Straße 28 - 30, 01099 Dresden": [
+    51.0674742,
+    13.7476501
+  ],
+  "Geblerstraße 16, 01139 Dresden": [
+    51.0919282,
+    13.7020799
+  ],
+  "Tharandter Straße 5, 01159 Dresden": [
+    51.0418767,
+    13.7037096
+  ],
+  "Winterbergstraße 59, 01237 Dresden": [
+    51.02764149999999,
+    13.7893646
+  ],
+  "Mercatorstraße 10 - 12, 47051 Duisburg": [
+    51.43138709999999,
+    6.7724473
+  ],
+  "Moorenstraße 5, 40225 Düsseldorf": [
+    51.1950096,
+    6.789880999999999
+  ],
+  "Luise-Rainer-Straße 6 - 10, 40235 Düsseldorf": [
+    51.234799,
+    6.820948
+  ],
+  "Blücherstraße 2, 40477 Düsseldorf": [
+    51.2406491,
+    6.7824847
+  ],
+  "Joachimstraße 3, 40545 Düsseldorf": [
+    51.2320082,
+    6.7574309
+  ],
+  "Georgenstraße 22, 99817 Eisenach": [
+    50.9754812,
+    10.3175001
+  ],
+  "Fürstenberger Straße 1, 15890 Eisenhüttenstadt": [
+    52.1429108,
+    14.6588279
+  ],
+  "Heinrich-Hertz-Straße 18, 25336 Elmshorn": [
+    53.746443,
+    9.6371026
+  ],
+  "Bolardusstraße 20, 26721 Emden": [
+    53.3752283,
+    7.213972
+  ],
+  "Bahnhofstraße 4a, 99084 Erfurt": [
+    50.97540559999999,
+    11.0354963
+  ],
+  "Geschwister-Scholl-Straße 6, 99085 Erfurt": [
+    50.9819103,
+    11.0433678
+  ],
+  "Nordhäuser Straße 74, 99089 Erfurt": [
+    50.9896147,
+    11.013659
+  ],
+  "Gutenbergstraße 68, 99092 Erfurt": [
+    50.9826546,
+    11.0175369
+  ],
+  "Bahnstraße 17, 40699 Erkrath": [
+    51.2206918,
+    6.9076363
+  ],
+  "Beckhauser Straße 50, 40699 Erkrath Hochdahl": [
+    51.2037638,
+    6.9565464
+  ],
+  "Elsa-Brandström-Straße 1, 37269 Eschwege": [
+    51.183158,
+    10.0517555
+  ],
+  "Herdetor 26, 26506 Esens": [
+    53.64588260000001,
+    7.608620299999998
+  ],
+  "Kreuzeskirchstraße 1, 45127 Essen": [
+    51.4590247,
+    7.012942799999999
+  ],
+  "Ückendorfer Straße 51, 45327 Essen": [
+    51.4919986,
+    7.0525411
+  ],
+  "Peterstraße 15, 23701 Eutin": [
+    54.1358477,
+    10.6145297
+  ],
+  "Logenstraße 6a, 15230 Frankfurt (Oder)": [
+    52.3422633,
+    14.5519997
+  ],
+  "Müllroser Chaussee 7, 15236 Frankfurt (Oder)": [
+    52.3007461,
+    14.4834898
+  ],
+  "Eschersheimer Landstraße 311, 60320 Frankfurt am Main": [
+    50.139851,
+    8.6694882
+  ],
+  "Grüneburgweg 16-18, 60322 Frankfurt am Main": [
+    50.1215176,
+    8.6722512
+  ],
+  "Riedbergplatz 1, 60438 Frankfurt am Main": [
+    50.1772418,
+    8.6288626
+  ],
+  "Obere Hauptstraße 4, 85354 Freising": [
+    48.4004272,
+    11.7433325
+  ],
+  "Dresdner Straße 275, 01705 Freital": [
+    50.9929716,
+    13.6443574
+  ],
+  "Bruchstraße 1, 34233 Fuldatal": [
+    51.3499595,
+    9.5242463
+  ],
+  "Ernst-von-Bergmann-Straße 22, 39638 Gardelegen": [
+    52.5221736,
+    11.3823234
+  ],
+  "Feldmarkstraße 109, 45883 Gelsenkirchen": [
+    51.5083473,
+    7.080438999999999
+  ],
+  "Schlehenweg 2, 39307 Genthin": [
+    52.3951831,
+    12.1483483
+  ],
+  "Schoonebeekstraße 5, 49124 Georgsmarienhütte": [
+    52.2050741,
+    8.0649354
+  ],
+  "Bleichstraße 6, 73033 Göppingen": [
+    48.70179479999999,
+    9.6561092
+  ],
+  "Girbigsdorfer Straße 1-3, 02826 Görlitz": [
+    51.1600937,
+    14.9727491
+  ],
+  "Wichmannstraße 12, 07973 Greiz": [
+    50.6627927,
+    12.1983797
+  ],
+  "Wismarsche Straße 7, 23936 Grevesmühlen": [
+    53.8646575,
+    11.1865275
+  ],
+  "Westring 55, 67269 Grünstadt": [
+    49.5637443,
+    8.158150899999999
+  ],
+  "Bokemühlenfeld 44, 33334 Gütersloh": [
+    51.9419478,
+    8.4125211
+  ],
+  "Kirchstraße 17, 58099 Hagen": [
+    51.3953247,
+    7.471398100000001
+  ],
+  "Wilhelm-von-Klewiz-Straße 10, 06132 Halle (Saale)": [
+    51.4433789,
+    11.9669458
+  ],
+  "Speersort 8, 20095 Hamburg": [
+    53.55003689999999,
+    9.998540199999999
+  ],
+  "Rathausmarkt 19, 20095 Hamburg": [
+    53.5501537,
+    9.994106
+  ],
+  "Lange Reihe 39, 20099 Hamburg": [
+    53.5570022,
+    10.0103255
+  ],
+  "Rothenbaumchaussee 11, 20148 Hamburg": [
+    53.5650389,
+    9.9887996
+  ],
+  "Jungfrauenthal 8, 20149 Hamburg": [
+    53.5815521,
+    9.9866196
+  ],
+  "Rothenbaumchaussee 207, 20149 Hamburg": [
+    53.579187,
+    9.9882169
+  ],
+  "Heussweg 37, 20255 Hamburg": [
+    53.5767896,
+    9.9515614
+  ],
+  "Heußweg 37, 20255 Hamburg": [
+    53.5767896,
+    9.9515614
+  ],
+  "Osterstraße 36, 20259 Hamburg": [
+    53.5749773,
+    9.958649999999999
+  ],
+  "Neuer Wall 32, 20354 Hamburg": [
+    53.55190529999999,
+    9.9905435
+  ],
+  "Bleichenbrücke 9, 20354 Hamburg": [
+    53.5518528,
+    9.9876354
+  ],
+  "Schäferkampsallee 56 - 58, 20357 Hamburg": [
+    53.56967820000001,
+    9.964467599999999
+  ],
+  "Oberbaumbrücke 1, 20457 Hamburg": [
+    53.54663,
+    10.0050373
+  ],
+  "Hopfenmarkt 31, 20457 Hamburg": [
+    53.5478678,
+    9.9895341
+  ],
+  "Willy-Brandt-Straße 1, 20457 Hamburg": [
+    53.5470931,
+    10.0035437
+  ],
+  "Hölertwiete 5, 21073 Hamburg": [
+    53.460793,
+    9.981014199999999
+  ],
+  "Wandsbeker Marktstraße 113, 22041 Hamburg": [
+    53.5728895,
+    10.0687303
+  ],
+  "Lerchenfeld 14, 22081 Hamburg": [
+    53.5695694,
+    10.0290443
+  ],
+  "Sievekingsallee 178a, 22111 Hamburg": [
+    53.5569888,
+    10.0771508
+  ],
+  "Horner Landstraße 200, 22111 Hamburg": [
+    53.54948779999999,
+    10.0798467
+  ],
+  "Oskar-Schlemmer-Straße 15, 22115 Hamburg": [
+    53.5289413,
+    10.1477844
+  ],
+  "Mühlenkamp 32, 22303 Hamburg": [
+    53.5815984,
+    10.0118588
+  ],
+  "Erdkampsweg 26, 22335 Hamburg": [
+    53.6287827,
+    10.0242332
+  ],
+  "Im Alten Dorfe 23, 22359 Hamburg": [
+    53.6488409,
+    10.1644319
+  ],
+  "Krohnstieg 41 - 43, 22415 Hamburg": [
+    53.6490585,
+    10.0129593
+  ],
+  "Tibarg 21, 22459 Hamburg": [
+    53.6207004,
+    9.9515949
+  ],
+  "Ole Hoop 18, 22587 Hamburg": [
+    53.5611049,
+    9.815044
+  ],
+  "Bellmannstraße 5, 22607 Hamburg": [
+    53.5602452,
+    9.884803500000002
+  ],
+  "Ottenser Hauptstraße 33, 22765 Hamburg": [
+    53.5518323,
+    9.929528
+  ],
+  "Bahrenfelder Straße 242, 22765 Hamburg": [
+    53.556774,
+    9.9284807
+  ],
+  "Neue Große Bergstraße 20, 22767 Hamburg": [
+    53.5515603,
+    9.9397027
+  ],
+  "Oswaldstraße 7, 59075 Hamm": [
+    51.697598,
+    7.7595858
+  ],
+  "Friedrich-Ebert-Anlage 11b, 63450 Hanau": [
+    50.1289446,
+    8.9215997
+  ],
+  "Limburgstraße 8, 30159 Hannover": [
+    52.37471069999999,
+    9.734577
+  ],
+  "Theaterstraße 14, 30159 Hannover": [
+    52.374216,
+    9.742756199999999
+  ],
+  "Osterstraße 24, 30159 Hannover": [
+    52.3721907,
+    9.738610699999999
+  ],
+  "Sedanstraße 14, 30161 Hannover": [
+    52.3804651,
+    9.748481
+  ],
+  "Geibelstraße 54, 30173 Hannover": [
+    52.35929609999999,
+    9.750708099999999
+  ],
+  "Podbielskistraße 102, 30177 Hannover": [
+    52.3955364,
+    9.7648269
+  ],
+  "Wertheimer Straße 95, 74736 Hardheim": [
+    49.612001,
+    9.4705402
+  ],
+  "Esmarchstraße 50, 25746 Heide": [
+    54.1997884,
+    9.0761775
+  ],
+  "Bergheimerstraße 53 - 57, 69115 Heidelberg": [
+    49.4080861,
+    8.6877629
+  ],
+  "Karlstraße 103, 74076 Heilbronn": [
+    49.1427523,
+    9.233149
+  ],
+  "Wilhelmstraße 13, 44649 Herne": [
+    51.5322548,
+    7.1560102
+  ],
+  "Alte Prettiner Straße 1, 04916 Herzberg": [
+    51.68483270000001,
+    13.2072511
+  ],
+  "Königstraße 1, 31139 Hildesheim": [
+    52.1485358,
+    9.930847100000001
+  ],
+  "Unter dem Kiekenstein 29, 37603 Holzminden": [
+    51.8348503,
+    9.450947
+  ],
+  "Hürthpark B 111, 50354 Hürth": [
+    50.8790623,
+    6.8768731
+  ],
+  "Hermann-Pistor-Straße 33a, 07745 Jena": [
+    50.8982134,
+    11.5739554
+  ],
+  "Krummellenbogenstraße 1, 26441 Jever": [
+    53.5726363,
+    7.8991496
+  ],
+  "Holstenstraße 2, 24568 Kaltenkirchen": [
+    53.83800590000001,
+    9.9590481
+  ],
+  "Ebertstraße 18 a, 76137 Karlsruhe": [
+    48.99492739999999,
+    8.3932656
+  ],
+  "Lötzener Straße 8, 76139 Karlsruhe": [
+    49.036369,
+    8.445573200000002
+  ],
+  "Treppenstraße 2, 34117 Kassel": [
+    51.315173,
+    9.4949991
+  ],
+  "Friedrich-Ebert-Straße 161, 34119 Kassel": [
+    51.3159163,
+    9.462902099999999
+  ],
+  "Friedrich-Ebert-Straße 159-161, 34119 Kassel": [
+    51.3158985,
+    9.4631116
+  ],
+  "Wilhelmshöher Allee 129, 34121 Kassel": [
+    51.31233899999999,
+    9.464633599999999
+  ],
+  "Brandenburger Straße 6, 34131 Kassel": [
+    51.3043479,
+    9.4351869
+  ],
+  "Brandenburger Strasse 6, 34131 Kassel": [
+    51.3043479,
+    9.4351869
+  ],
+  "Küterstraße 7-9, 24103 Kiel": [
+    54.3237645,
+    10.1374219
+  ],
+  "Johannesstraße 45, 24143 Kiel": [
+    54.31251160000001,
+    10.147553
+  ],
+  "Auerbacher Straße 28, 08107 Kirchberg": [
+    50.62213819999999,
+    12.52804
+  ],
+  "Neumarkt 1b, 50667 Köln": [
+    50.93605609999999,
+    6.9498
+  ],
+  "Kurfürstenstraße 5 - 7, 50678 Köln": [
+    50.920047,
+    6.9604624
+  ],
+  "Londoner Platz 2, 50765 Köln": [
+    51.0242454,
+    6.879553
+  ],
+  "Karl-Marx-Allee 48, 50769 Köln": [
+    51.020981,
+    6.907351299999999
+  ],
+  "Venloer Straße 389, 50825 Köln": [
+    50.950713,
+    6.9144586
+  ],
+  "Max-Planck-Straße 27a, 50858 Köln": [
+    50.92073019999999,
+    6.8459721
+  ],
+  "Zülpicher Straße 283, 50937 Köln": [
+    50.92201,
+    6.921799
+  ],
+  "Kaiserstraße 40, 66849 Landstuhl": [
+    49.4122096,
+    7.568599499999999
+  ],
+  "Röntgenstraße 20, 63225 Langen": [
+    49.9985728,
+    8.6837827
+  ],
+  "Karl-Liebknecht-Straße 14, 04107 Leipzig": [
+    51.3299329,
+    12.3731789
+  ],
+  "Käthe-Kollwitz-Straße 71, 04109 Leipzig": [
+    51.3369253,
+    12.3588918
+  ],
+  "Brühl 33, 04109 Leipzig": [
+    51.3430379,
+    12.3774125
+  ],
+  "Delitzscher Straße 141, 04129 Leipzig": [
+    51.3859106,
+    12.3785557
+  ],
+  "Marktstraße 2-6, 04177 Leipzig": [
+    51.3366449,
+    12.3339036
+  ],
+  "Brockhausstraße 32, 04229 Leipzig": [
+    51.3245809,
+    12.3416689
+  ],
+  "Riebeckstraße 65, 04317 Leipzig": [
+    51.324348,
+    12.4021732
+  ],
+  "Wurzner Straße 154a, 04318 Leipzig": [
+    51.3434169,
+    12.42563
+  ],
+  "Riesaer Straße 40, 04328 Leipzig": [
+    51.3459309,
+    12.4464382
+  ],
+  "Eutiner Straße 8, 23738 Lensahn": [
+    54.21992669999999,
+    10.8839427
+  ],
+  "Alte Landstraße 129, 51373 Leverkusen": [
+    51.0476035,
+    6.9902609
+  ],
+  "Am Gesundheitspark 11, 51375 Leverkusen": [
+    51.0324496,
+    7.0331031
+  ],
+  "Marktstraße 7, 88161 Lindenberg i.A.": [
+    47.6007074,
+    9.888658699999999
+  ],
+  "Schillerstraße 6a, 15907 Lübben": [
+    51.9443981,
+    13.876578
+  ],
+  "Sandstraße 25-27, 23552 Lübeck": [
+    53.8646865,
+    10.6854178
+  ],
+  "Marlistraße 112, 23566 Lübeck": [
+    53.8639072,
+    10.7199331
+  ],
+  "Brodtener Kirchsteig 1b, 23570 Lübeck Travemünde": [
+    53.9599084,
+    10.8628336
+  ],
+  "Monreposstraße 49, 71634 Ludwigsburg": [
+    48.9116933,
+    9.1705162
+  ],
+  "Ludwig-Guttmann-Straße 11, 67071 Ludwigshafen": [
+    49.4872551,
+    8.3886577
+  ],
+  "Bögelstraße 1, 21339 Lüneburg": [
+    53.2402779,
+    10.3958068
+  ],
+  "Rudolf-Breitscheid-Straße 33, 06686 Lützen": [
+    51.2572451,
+    12.1431523
+  ],
+  "Quintinsstraße 6, 55116 Mainz": [
+    50.0005616,
+    8.2735404
+  ],
+  "Lipper Weg 11, 45770 Marl": [
+    51.6618076,
+    7.1247895
+  ],
+  "Dorfstraße 3a, 40667 Meerbusch": [
+    51.2518395,
+    6.6914831
+  ],
+  "Nassauweg 7, 01662 Meißen": [
+    51.1734737,
+    13.5054453
+  ],
+  "Sandradstraße 4, 41061 Mönchengladbach": [
+    51.1957694,
+    6.431371899999999
+  ],
+  "Erzbergerstraße 97, 41061 Mönchengladbach": [
+    51.19087,
+    6.4490035
+  ],
+  "Langensalzaer Landstraße 1, 99974 Mühlhausen": [
+    51.2019217,
+    10.467321
+  ],
+  "Marienplatz 20, 80331 München": [
+    48.1368203,
+    11.575961
+  ],
+  "Nymphenburger Straße 92, 80636 München": [
+    48.1503757,
+    11.5439235
+  ],
+  "Institutstraße 14, 81241 München": [
+    48.1465732,
+    11.4566674
+  ],
+  "Hans-Stützle-Straße 20, 81249 München": [
+    48.1396069,
+    11.4101559
+  ],
+  "Isenschmidstraße 19, 81545 München": [
+    48.0903568,
+    11.5558031
+  ],
+  "Turmstraße 19, 72202 Nagold": [
+    48.5516588,
+    8.7238958
+  ],
+  "Salvador Allende Straße 30, 17036 Neubrandenburg": [
+    53.544657,
+    13.2963497
+  ],
+  "Salvdor-Allende-Straße 30, 17036 Neubrandenburg": [
+    53.544657,
+    13.2963497
+  ],
+  "Markt 6, 04575 Neukieritzsch": [
+    51.15179680000001,
+    12.4105859
+  ],
+  "Kuhberg 28, 24534 Neumünster": [
+    54.0746654,
+    9.9830319
+  ],
+  "Fontaneplatz 3 b, 16816 Neuruppin": [
+    52.9212926,
+    12.8013844
+  ],
+  "Hauptstraße 57, 77704 Oberkirch": [
+    48.53123,
+    8.078529999999999
+  ],
+  "Kaiserstraße 32 - 34, 63065 Offenbach": [
+    50.1033657,
+    8.7590747
+  ],
+  "Kaiserstraße 32-34, 63065 Offenbach": [
+    50.1033657,
+    8.7590747
+  ],
+  "Berliner Straße 116, 63065 Offenbach": [
+    50.1064454,
+    8.7597653
+  ],
+  "Josef-Rüther-Straße 2, 59939 Olsberg": [
+    51.3557419,
+    8.4817915
+  ],
+  "Bernauer Straße 100, 16515 Oranienburg": [
+    52.7587178,
+    13.2527237
+  ],
+  "Robert-Koch-Straße 2-12, 16515 Oranienburg": [
+    52.7431681,
+    13.2429153
+  ],
+  "Bernauer Straße 60, 16515 Oranienburg": [
+    52.7570706,
+    13.2462149
+  ],
+  "Johannisstraße 111, 49074 Osnabrück": [
+    52.268339,
+    8.0522644
+  ],
+  "Kastanienallee 1, 31224 Peine": [
+    52.3330259,
+    10.2354559
+  ],
+  "Falkenbergerstraße 31a, 31228 Peine": [
+    52.3295841,
+    10.195521
+  ],
+  "Damm 49, 25421 Pinneberg": [
+    53.6591506,
+    9.807777399999999
+  ],
+  "Hauptstraße 19 B, 01796 Pirna": [
+    50.9707939,
+    13.9350798
+  ],
+  "Martin-Luther-Straße 42, 08525 Plauen": [
+    50.5053615,
+    12.1414916
+  ],
+  "Charlottenstraße 72, 14467 Potsdam": [
+    52.4012738,
+    13.0659262
+  ],
+  "Geschwister-Scholl-Straße 83, 14471 Potsdam": [
+    52.3933428,
+    13.0352002
+  ],
+  "Sterncenter 10, 14480 Potsdam": [
+    52.370834,
+    13.1336052
+  ],
+  "Alt Nowawes 67, 14482 Potsdam": [
+    52.3963618,
+    13.0900252
+  ],
+  "Ziegenweg 4, 25451 Quickborn": [
+    53.7364322,
+    9.9032339
+  ],
+  "Heinrich-Zille-Straße 13, 01445 Radebeul": [
+    51.1082488,
+    13.6514667
+  ],
+  "Borstraße 30, 01445 Radebeul": [
+    51.1073825,
+    13.6501391
+  ],
+  "Haselbrunnstraße 48, 78315 Radolfzell": [
+    47.7449492,
+    8.9634299
+  ],
+  "Bahnhofstraße 24, 93047 Regensburg": [
+    49.0132379,
+    12.10189
+  ],
+  "Kaiserstraße 24, 24768 Rendsburg": [
+    54.2994966,
+    9.6642163
+  ],
+  "Ulmenallee 12, 18311 Ribnitz-Damgarten": [
+    54.2398637,
+    12.4362301
+  ],
+  "Weinbergstraße 8, 01589 Riesa": [
+    51.2966365,
+    13.310652
+  ],
+  "Am Rosenwinkel 4, 17207 Röbel": [
+    53.37343850000001,
+    12.5969084
+  ],
+  "Warnowallee 30, 18107 Rostock": [
+    54.138516,
+    12.0546684
+  ],
+  "Warnowallee 31, 18107 Rostock": [
+    54.13847879999999,
+    12.0553671
+  ],
+  "Salvador-Allende-Straße 28, 18147 Rostock": [
+    54.1154936,
+    12.1437289
+  ],
+  "Heinestraße 2 - 4, 66121 Saarbrücken": [
+    49.22671279999999,
+    7.005790299999999
+  ],
+  "Goethestraße 33, 29410 Salzwedel": [
+    52.8537468,
+    11.1591178
+  ],
+  "Goethestraße 3, 08289 Schneeberg": [
+    50.6041939,
+    12.6434579
+  ],
+  "Krumme Gasse 8, 97453 Schonungen": [
+    50.0510242,
+    10.3037281
+  ],
+  "Ostlandstraße 51, 28790 Schwanewede": [
+    53.229927,
+    8.5884781
+  ],
+  "Am Klinikum 1, 16303 Schwedt (Oder)": [
+    53.05291399999999,
+    14.275742
+  ],
+  "Wismarsche Straße 393 - 397, 19049 Schwerin": [
+    53.6510638,
+    11.407036
+  ],
+  "Hamburger Allee 130, 19063 Schwerin": [
+    53.5929714,
+    11.4637344
+  ],
+  "Kölner Straße 58, 42651 Solingen": [
+    51.16947829999999,
+    7.0824227
+  ],
+  "Hospitalstraße 2, 99706 Sondershausen": [
+    51.3739909,
+    10.878947
+  ],
+  "Bahnhofstraße 20a, 87527 Sonthofen": [
+    47.5132689,
+    10.2751863
+  ],
+  "St. Ingberter Straße 1, 66583 Spiesen-Elversberg": [
+    49.3143526,
+    7.1274827
+  ],
+  "Am Kantorgarten 6, 37627 Stadtoldendorf": [
+    51.8827649,
+    9.6294884
+  ],
+  "Grünthal 22, 18437 Stralsund": [
+    54.3091795,
+    13.0412838
+  ],
+  "Ossenreyerstraße 56, 18439 Stralsund": [
+    54.3144514,
+    13.0902748
+  ],
+  "Königstraße 70, 70173 Stuttgart": [
+    48.77432289999999,
+    9.174171399999999
+  ],
+  "Charlottenstraße 44, 70182 Stuttgart": [
+    48.7731798,
+    9.1867398
+  ],
+  "Bahnhofstraße 17, 70372 Stuttgart - Bad Cannstatt": [
+    48.8022538,
+    9.2176178
+  ],
+  "Arneburger Straße 91, 39590 Tangermünde": [
+    52.547422,
+    11.9787537
+  ],
+  "Obere Mühlenstraße 10a, 17268 Templin": [
+    53.11792699999999,
+    13.5051615
+  ],
+  "Pommernstraße 73, 25436 Tornesch": [
+    53.6994462,
+    9.7150608
+  ],
+  "Pfarrer-Kenntemich-Platz 11, 53840 Troisdorf": [
+    50.8130134,
+    7.1606913
+  ],
+  "Calwerstraße 7, 72076 Tübingen": [
+    48.52669460000001,
+    9.0498686
+  ],
+  "Calwer Straße 7, 72076 Tübingen": [
+    48.52669460000001,
+    9.0498686
+  ],
+  "Neue Straße 115, 89073 Ulm": [
+    48.3978465,
+    9.9971432
+  ],
+  "Kleistraße 2, 59427 Unna": [
+    51.53785,
+    7.6494307
+  ],
+  "Hildesheimer Straße 20, 38159 Vechelde": [
+    52.26061130000001,
+    10.3723642
+  ],
+  "Eitzer Straße 20, 27283 Verden": [
+    52.9145067,
+    9.232821699999999
+  ],
+  "Bahnhofstraße 2, 46562 Voerde": [
+    51.5963421,
+    6.6687214
+  ],
+  "Bahnhofstraße 38 - 40, 22880 Wedel": [
+    53.5770305,
+    9.7054247
+  ],
+  "Rathausplatz 6, 82362 Weilheim i OBB": [
+    47.8386204,
+    11.1445336
+  ],
+  "Ludwig-Feuerbach- Straße 7a, 99425 Weimar": [
+    50.9706802,
+    11.3304899
+  ],
+  "Naumburger Straße 76, 06667 Weißenfels": [
+    51.1940916,
+    11.9567888
+  ],
+  "An der Pforte 6, 06667 Weißenfels": [
+    51.2026391,
+    11.9707699
+  ],
+  "Schillerstraße 14, 06667 Weißenfels": [
+    51.2084357,
+    11.9696712
+  ],
+  "Ronneburger Straße 106, 08412 Werdau": [
+    50.7426566,
+    12.365658
+  ],
+  "Potsdamer Straße 165, 14542 Werder": [
+    52.3755771,
+    12.9359195
+  ],
+  "An den Quellen 10, 65183 Wiesbaden": [
+    50.0840154,
+    8.2423823
+  ],
+  "Marktstraße 34, 65183 Wiesbaden": [
+    50.0824753,
+    8.2392395
+  ],
+  "Wiesenstraße 14, 58452 Witten": [
+    51.43746549999999,
+    7.335326100000001
+  ],
+  "Dohuser Weg 14, 26409 Wittmund": [
+    53.5724346,
+    7.7892481
+  ],
+  "Bahnhofstraße 4, 38300 Wolfenbüttel": [
+    52.15985629999999,
+    10.5336387
+  ],
+  "Sauerbruchstraße 7, 38440 Wolfsburg": [
+    52.413446,
+    10.7681019
+  ],
+  "Schloßbleiche 42, 42103 Wuppertal": [
+    51.2558461,
+    7.145537399999999
+  ],
+  "Hauptstraße 61, 42369 Wuppertal": [
+    51.2077401,
+    7.134050599999999
+  ],
+  "Kutusowstraße 70, 04808 Wurzen": [
+    51.3792371,
+    12.7321628
+  ]
+}
